@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms and basic HTML structuring</title>
+</head>
+
+<body>
+    <form>
+        <p>
+            <label>Enter your first name</label>
+            <input type="text" placeholder="Enter your first name" />
+        </p>
+        <hr>
+        <p>
+            <label>Enter your password</label>
+            <input type="password" placeholder="Enter your password" />
+        </p>
+        <hr>
+        <p>
+            <label>Choose date</label>
+            <input type="date" />
+        </p>
+        <hr>
+        <p>
+            <label>Enter description</label>
+            <textarea cols="10" rows="5"></textarea>
+        </p>
+        <hr>
+        <p>
+            <label for="option-1">FC Barcelona</label>
+            <input type="checkbox" id="option-1" />
+        </p>
+        <p>
+            <label for="option-2">Real Madrid</label>
+            <input type="checkbox" id="option-2" />
+        </p>
+        <p>
+            <label for="option-3">Atletico Madrid</label>
+            <input type="checkbox" id="option-3" />
+        </p>
+        <hr>
+        <p>
+            <label for="gender-1">Male</label>
+            <input type="radio" id="gender-1" name="genders" />
+        </p>
+        <p>
+            <label for="gender-2">Female</label>
+            <input type="radio" id="gender-2" name="genders" />
+        </p>
+        <hr>
+        <p>
+            <label>Enter a number</label>
+            <input type="number" min="10" max="20" />
+        </p>
+        <hr>
+        <p>
+            <label>Upload a document</label>
+            <input type="file">
+        </p>
+        <hr>
+        <p>
+            <label>Range</label>
+            <input type="range" step="10" />
+        </p>
+        <hr>
+        <p>
+            <label>Choose a color</label>
+            <input type="color" />
+        </p>
+        <hr>
+        <p>
+            <select>
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Green">Green</option>
+                <option value="Cyan">Cyan</option>
+            </select>
+        </p>
+        <p>
+            <select multiple="true">
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Green">Green</option>
+                <option value="Cyan">Cyan</option>
+            </select>
+        </p>
+        <hr>
+        <p>
+            <button type="submit">Send data</button>
+            <input type="submit" value="Send data">
+        </p>
+    </form>
+    <hr>
+    <!--Vezba-->
+    <form>
+        <table>
+            <tr>
+                <td>Job Title:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td rowspan="2">Description:</td>
+                <td><textarea rows="5" cols="10" maxlength="500"></textarea></td>
+            </tr>
+            <tr>
+                <td>Brief Description should have almost 500 characters</td>
+            </tr>
+            <tr>
+                <td>Company Name:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Company number:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Company person:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Work Status</td>
+                <td>
+                    <input type="checkbox" id="label1" /><label for="label1">Full Time</label><input type="checkbox"
+                        id="label2" /><label for="label2">Part Time</label><input type="checkbox" id="label3" /><label
+                        for="label3">Per Dim</label><input type="checkbox" id="label4" /><label
+                        for="label4">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Salary</td>
+                <td><input type="text"></td>
+                <td>
+                    <select>
+                        <option value="US Dollar">US Dollar</option>
+                        <option value="Euro">Euro</option>
+                        <option value="MKD Denar">MKD Denars</option>
+                    </select>
+                </td>
+                <td>
+                    <select>
+                        <option value="Yearly">Yearly</option>
+                        <option value="Monthly">Monthly</option>
+                        <option value="Daily">Daily</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Experience (Years)</td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td>Locations</td>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <td>Qualifications:</td>
+                <td>
+                    <select multiple="true">
+                        <option value="Any">Any</option>
+                        <option value="High School">High School</option>
+                        <option value="Associate">Associate</option>
+                        <option value="Pre Bachelors">Pre Bachelors</option>
+                    </select>
+                </td>
+                <td><button>ADD>></button></td>
+                <td><button>Remove</button></td>
+                <td>
+                    <select multiple="true">
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit" title="Submit">Submit</button></td>
+                <td><button type="reset" title="Reset">Reset</button></td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+    <hr>
+    <!--Structuring-->
+    <main>
+        <header>
+            <div>
+                <img src="#" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                </ul>
+                <span>+ 0800555666</span>   
+            </nav>
+        </header>
+        <section>
+            <div>
+                <h2>Creative Solutions</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta accusamus placeat fugiat veritatis in hic sint provident voluptates neque laudantium nihil alias sunt, eius cum facere quibusdam quae voluptatem. Ullam?</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div>
+                    <div><img src="#" /></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic veniam voluptates molestias, aliquid perspiciatis ut quod ea perferendis cum iusto sit a obcaecati ullam laboriosam. Dignissimos saepe laudantium inventore magni?</p>
+                </div>
+                <div><img src="#" /></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div>
+                    <h2>Latest News</h2>
+                    <a href="#">See all news</a>
+                </div>
+                <div>
+                    <img src="#" alt="Article photo">
+                    <span>October 20, 2014</span>
+                </div>
+                <div>
+                    <h2>Lorem ipsum dolor sit amet consectetur</h2>
+
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </main>
+</body>
+
+</html>

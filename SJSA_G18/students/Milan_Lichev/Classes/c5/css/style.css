@@ -1,0 +1,121 @@
+/* /* body {
+    background-color: red;
+    background-image: url("../images/more-leaves.png");
+    background-size: contain;
+    background-size: 100px;
+    background-size: 50%;
+    background-size: cover;
+    background-position: center;
+    background-position: 50px 50px;
+    background-position: right;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+} */
+
+/* /* h2 {
+
+    color: cadetblue;
+    font-size: 40px;
+    text-decoration: underline;
+} */
+
+/* #hello-title {
+    color: darkorange;
+    font-size: 60px;
+    text-decoration: line-through;
+} */
+
+/* .another-title {
+    color: darkolivegreen;
+    font-size: 70px;
+    text-decoration: overline;
+} */
+
+/* h4 {
+    color: darkmagenta;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+} */
+
+/* p {
+    color: darkcyan;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 38px;
+    letter-spacing: 7px;
+} */
+
+/* #text-1 {
+    font-size: 20px;
+    color: blue;
+    font-style: italic;
+} */
+
+/* #text-2 {
+    font-size: 30px;
+    color: rebeccapurple;
+    font-style: normal;
+} */
+
+/* #text-3 {
+    font-size: 40px;
+    color: goldenrod;
+    font-style: oblique;
+} */
+
+/* #text-4 {
+    font-size: 50px;
+    color: green;
+    font-style: normal;
+} */
+
+/* .para1 {
+    font-size: 60px;
+    color: aqua;
+    font-style: italic;
+    line-height: 20px;
+    letter-spacing: 10;
+}
+
+.para2 {
+    font-size: 50px;
+    color: chocolate;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 5;
+}
+.para3 {
+    font-size: 40px;
+    color: darkorchid;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 30;
+}
+.para4 {
+    font-size: 30px;
+    color: forestgreen;
+    font-style: italic;
+    line-height: 40px;
+    letter-spacing: 20;
+} */
+
+#bg-left {
+    background-image: url(../images/more-leaves.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#bg-center {
+    background-image: url(../images/moroccan-flower-dark.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#bg-right {
+    background-image: url(../images/polka-dots.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#bg-all {
+    background-image: url(../images/more-leaves.png);
+}

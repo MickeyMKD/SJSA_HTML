@@ -1,0 +1,235 @@
+html, body {  
+    width: 960px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px auto 40px auto;
+    height: 100%;
+    color: #353b47;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h2 {
+    background-color: #e6efff;
+    margin: 0px;
+    padding: 10px 25px;
+    font-weight: lighter;
+    font-size: medium;
+    margin-right: 650px;
+}
+
+.logo button {
+    margin-right: 40px;
+    justify-content: end;
+}
+
+.logo a {
+    background-color: #f4a392;
+    color: #827a87;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    font-size: 12px;
+    padding: 7px 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.content-left {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 0px 100px;
+}
+
+.content-left h1 {
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.content-left p {
+    text-align: justify;
+}
+
+.button {
+    background-color: #45465a;
+    color: #ffffff;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    font-size: 12px;
+    padding: 7px 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.link {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.content-right {
+    display: flex; 
+    background-image: url(https://yokotafss.com/wp-content/uploads/2020/04/GettyImages-1160134500.jpg);
+    border-image-repeat: space;  
+    padding: 50px 150px; 
+}
+
+.content-heading {
+    text-align: center;
+    flex-direction: column;
+}
+
+.content-heading h1 {
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.content-heading p {
+    font-size: small;
+}
+
+.classes, .content-heading {
+    background-image: url(https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+}
+
+.single-block {
+    width: calc(100% / 3);
+    text-align: center;
+    justify-content: space-between;
+}
+
+.low-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-left {
+    padding: 50px 120px;
+    background-image: url(https://img.myloview.com/posters/beautiful-abstract-color-pink-texture-background-on-white-surface-granite-orange-and-pink-cloud-sky-on-art-graphics-pink-background-400-216994863.jpg);
+    background-repeat: round;
+}
+
+.bottom-right {
+    margin: 30px 100px;
+}
+
+.bottom-right a {
+    background-color: #45465a;
+    color: #ffffff;
+    text-decoration: none;
+    width: 110px;
+    text-align: center;
+    font-size: 12px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left {
+    margin: 30px 90px;
+}
+
+footer .right {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.right {
+    background-image: url(https://images.pexels.com/photos/2680270/pexels-photo-2680270.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    padding: 40px 150px;
+    gap: 15px ;
+}
+
+.plan-left {
+    background-color: #45465a;
+    text-align: center;
+    padding: 10px 50px;
+    color: #b1b1b9;
+    margin-right: 0px;
+}
+
+.plan-left h3 {
+    font-size: small;
+}
+
+.plan-left p {
+    font-size: 10px;
+}
+
+.plan-left h1 {
+    color: #e19c95;
+}
+
+.plan-left a {
+    background-color: #45465a;
+    color: #ffffff;
+    text-decoration: none;
+    width: 90px;
+    text-align: center;
+    font-size: 10px;
+    padding: 7px 10px;
+    border: 1px solid;
+    border-color: #b1b1b9;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;  
+}
+
+.plan-right {
+    background-color: #45465a;
+    text-align: center;
+    padding: 10px 40px;
+    color: #b1b1b9;
+}
+
+.plan-right h3 {
+    font-size: small;
+}
+
+.plan-right p {
+    font-size: 10px;
+}
+
+.plan-right h1 {
+    color: #e19c95;
+}
+
+.plan-right a {
+    background-color: #45465a;
+    color: #ffffff;
+    text-decoration: none;
+    width: 90px;
+    text-align: center;
+    font-size: 10px;
+    padding: 7px 10px;
+    border: 1px solid;
+    border-color: #b1b1b9;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;  
+}

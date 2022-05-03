@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Images, Lists, Tables</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <!-- Image from the internet -->
+        <img src="https://m.media-amazon.com/images/M/MV5BYThjM2NlOTItYTUzMC00ODE3LTk1MTItM2I3MDViY2U3MThlXkEyXkFqcGdeQXVyMTg4NDI0NDM@._V1_UY1200_CR165,0,630,1200_AL_.jpg" width="100" />
+        <br> <hr>
+        <!-- Local image -->
+        <img src="gal-gadot.webp" width="200" />
+        <br> <hr>
+        <!-- Local image within a folder -->
+        <img width="150" src="./images/gg.jpeg" />
+        <br> <hr>
+        <!-- gif in an img tag -->
+        <img width="150" src="https://compote.slate.com/images/697b023b-64a5-49a0-8059-27b963453fb1.gif" />
+        <br> <hr>
+        <!-- LISTS -->
+
+        <!-- Unordered List -->
+        <ul>
+           <li>
+               <h2>The Last Picture Show</h2>
+               
+            </li>
+           <li>
+               <h2>Memoria</h2>
+            </li>
+           <li>
+               <a href="https://www.imdb.com/title/tt0070510/">Paper Moon</a>
+               <p>During the Great Depression, a con man finds himself saddled with a young girl who may or may not be his daughter, and the two forge an unlikely partnership.</p>
+               <img width="150" src="https://m.media-amazon.com/images/M/MV5BOWVmYzQwY2MtOTBjNi00MDNhLWI5OGMtN2RiMDYxODI3MjU5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg" />
+            </li>
+            <li><h2>Mad Max</h2></li>
+        </ul>
+        <hr>
+        <!-- Ordered List -->
+        <ol type="I">
+            <li>
+                <h2>Pulp Fiction</h2>
+            </li>
+            <li>
+                <h2>Close-up</h2>
+            </li>
+        </ol>
+        <hr>
+        <!-- Nested Lists -->
+        <ul>
+            <li>
+                <h2>Pulp Fiction</h2>
+                <ul>
+                    <li>
+                        John Travolta
+                        <ul>
+                            <li>Get Shorty</li>
+                            <li>Be Cool</li>
+                        </ul>
+                    </li>
+                    <li>Uma Thurman</li>
+                    <li>Samuel L. Jackson</li>
+                </ul>
+            </li>
+            <li>
+                <h2>Pulp Fiction</h2>
+                <ul>
+                    <li>
+                        John Travolta
+                        <ul>
+                            <li>Get Shorty</li>
+                            <li>Be Cool</li>
+                        </ul>
+                    </li>
+                    <li>Uma Thurman</li>
+                    <li>Samuel L. Jackson</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <!-- Tables -->
+        <table border="1" cellspacing="5" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone Number</th>
+                    <th colspan="2">E-mail</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Pero Perovski</td>
+                    <td>1234567891231312</td>
+                    <td>pero@gmail.com</td>
+                    <td>pero_vtor_email@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>1239719841123123</td>
+                    <td colspan="2" align="center">johndoe@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <table border="1" cellspacing="5" cellpadding="10">
+            <tr>
+                <th>Name</th>
+                <td>Mario Petkovski</td>
+                <td>Pero Perovski</td>
+            </tr>
+            <tr>
+                <th rowspan="2">E-mail</th>
+                <td rowspan="2">mario5etkovski@gmail.com</td>
+                <td>pero.perovski@gmail.com</td>
+            </tr>
+            <tr>
+                <td>pero_vtor_email@gmail.com</td>
+            </tr>
+        </table>
+    </body>
+</html>

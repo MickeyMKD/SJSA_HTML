@@ -1,0 +1,60 @@
+body {
+    /* background-color: red; */
+    background-image: url("../images/embossed-diamond.webp");
+    /* background-image: url("../images/bg.jpeg"); */
+    
+    /* SINGLE repeat command */
+    /* background-repeat: no-repeat; */
+    /* SINGLE repeat command */
+
+    /* Command based on x/y axis */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* Command based on x/y axis */
+    
+    /* positioning of bg-image along both x/y axis */
+    /* background-position: center; */
+    /* positioning of bg-image along both x/y axis */
+    
+    /* Command based on x or y axis */
+    /* background-position-y: value; */
+    /* background-position-x: value; */
+    /* Command based on x or y axis */
+}
+
+/* BACKGROUND COVER TO BE EXPLAINED WITH WIDTH AND HEIGHT */
+/* background-size: cover; */
+/* BACKGROUND COVER TO BE EXPLAINED WITH WIDTH AND HEIGHT */
+
+/* h2 {
+    color: burlywood;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+#hello-title {
+    color: maroon;
+    font-size: 60px;
+    text-decoration: line-through;
+}
+
+.another-title {
+    color: lightcoral;
+    font-size: 70px;
+    text-decoration: overline;
+}
+
+h4 {
+    color: cornflowerblue;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+p {
+    color: chocolate;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 38px;
+    letter-spacing: 10px;
+} */

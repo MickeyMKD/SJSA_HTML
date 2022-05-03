@@ -1,0 +1,156 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+
+.section-wrapper {
+    width: 980px;
+    margin: 0px auto;
+}
+
+#hero {
+    background-color: #C3C3C3;
+    float: left;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h2 {
+    margin: 0px;
+    color: #515151;
+    font-size: 28px;
+}
+
+header {
+    float: left;
+    width: 100%;
+}
+
+header .nav-links {
+    float: right;
+}
+
+.nav-links ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links ul li a {
+    color: #515151;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hero-content {
+    float: left;
+    width: 100%;
+    margin: 40px 0px 0px 0px;
+}
+
+.intro {
+    float: left;
+}
+
+.intro h2 {
+    font-size: 40px;
+    color: #515151;
+    margin: 0px;
+}
+
+.intro p {
+    font-size: 24px;
+    color: #515151;
+    width: 280px;
+    margin: 10px 0px 0px 0px;
+}
+
+.slider {
+    float: right;
+    background: #9F9F9F;
+    width: 50%;
+    height: 100px;
+    padding: 60px;
+}
+
+.slider h2 {
+    font-size: 24px;
+    color: #515151;
+    font-weight: normal;
+    width: 200px;
+}
+
+#content-blocks {
+    float: left;
+    width: 100%;
+    margin: 60px 0px 0px 0px;
+}
+
+.single-content-block {
+   background-color: #C3C3C3;
+   float: left;
+   margin: 0px 20px 40px 0px;
+   width: calc(100% / 3  - 14px);
+   height: 300px;
+   padding: 100px 0px 0px 0px;
+   box-sizing: border-box;
+}
+
+/* .single-content-block:nth-child(3n) {} */
+/* .single-content-block:last-of-type {} */
+
+.services .single-content-block:last-child,
+.recent-work .single-content-block:last-child {
+    margin-right: 0px;
+}
+
+.single-content-block h2 {
+    font-size: 28px;
+    color: #515151;
+    font-weight: normal;
+}
+
+.twitter-feed {
+    background: #C3C3C3;
+    float: left;
+    width: 100%;
+}
+
+.twitter-feed h2 {
+    margin: 0px 0px 0px 20px;
+    padding: 30px 0px;
+    font-size: 28px;
+    color: #515151;
+    font-weight: normal;
+}
+
+footer{
+    background-color: #C3C3C3;
+    float: left;
+    width: 100%;
+    padding: 20px 0px;
+    margin: 30px 0px 0px 0px;
+}
+
+footer .nav-links {
+    float: left;
+}
+
+footer .copyright {
+    float: right;
+    color: #515151;
+    font-size: 18px;
+}
+
+.services, .recent-work {
+    text-align: center;
+}

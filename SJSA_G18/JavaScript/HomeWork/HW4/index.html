@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>HomeWork 4</title>
+  </head>
+  
+  <body>
+    <label for="animalType">Animal: </label>
+    <input type="text" id="animalType">
+    <label for="numOfAnimal">Number of animals: </label>
+    <input type="number" id="numOfAnimal">
+  
+    <button onclick="addAnimals()">Add</button>
+
+    <h2>My animals:</h2>
+    <input placeholder="Search..." id="search" oninput="search(this.value)"/>
+    <button id="reset" onclick="reset()">Reset</button>
+    <div id="container"></div>
+  </body>
+ 
+  <script src="./HW4.js"></script>
+</html>

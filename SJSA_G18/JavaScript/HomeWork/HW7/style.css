@@ -1,0 +1,22 @@
+#container {
+    display: flex;
+}
+
+#container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #97b0df;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#container h3 {
+    font-size: 1.2em;
+}
+
+#container img {
+    width: 80px;
+}

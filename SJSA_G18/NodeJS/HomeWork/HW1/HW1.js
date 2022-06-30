@@ -3,10 +3,8 @@ const weightConvert = (type, value) => {
     switch (type) {
         case 'kg2lb':
             return value * 2.2046;
-        
         case 'lb2kg':
             return value / 2.2046;
-            
         default:
             console.log('Cannot convert!')
             break;
@@ -23,10 +21,8 @@ const distanceConvert = (type, value) => {
     switch (type) {
         case 'mil2km':
             return value * 1.60934;
-        
         case 'km2mil':
             return value * 0.621371;
-            
         default:
             console.log('Cannot convert!')
             break;
@@ -43,10 +39,8 @@ const lengthConvert = (type, value) => {
     switch (type) {
         case 'cm2ft':
             return value * 0.032808;
-        
         case 'ft2cm':
             return value / 0.032808;
-            
         default:
             console.log('Cannot convert!')
             break;
@@ -63,10 +57,8 @@ const currencyConvert = (type, value) => {
     switch (type) {
         case 'mkd2eur':
             return value / 61.8 + ' EUR';
-        
         case 'eur2mkd':
             return value * 61.3 + ' MKD';
-            
         default:
             console.log('Cannot convert!')
             break;
@@ -83,10 +75,8 @@ const wealthConvert = (type, value) => {
     switch (type) {
         case 'xau2usd':
             return value * 1848.52 + ' USD';
-        
         case 'usd2xau':
             return value * 0.000540944 + ' XAU';
-            
         default:
             console.log('Cannot convert!')
             break;
@@ -94,7 +84,7 @@ const wealthConvert = (type, value) => {
 };
 
 let wealth = 1;
-let wealthRes = wealthConvert('usd2xau', wealth)
+let wealthRes = wealthConvert('usd2xau', wealth);
 console.log('Wealth result:', wealthRes)
 
 
@@ -117,7 +107,7 @@ function translate (word) {
      }
    }
    return wordInput;
-}
+};
 
-let result = translate('Шамарничарење')
+let result = translate('Шамарничарење Ѓомлезе Живинарска Ѕидарева Љубав');
 console.log('The transformed word is:', result)

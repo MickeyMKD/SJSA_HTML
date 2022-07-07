@@ -1,22 +1,14 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-    if(req.url === "/plus/2/3") {
-        res.end('5');
-    } else if(req.url === "/minus/10/8") {
-        res.end('8')
-    } else {
-    res.end('zdravo od serverot');
-    }        
-    // console.log('server test');
+    console.log('server test');
     // console.log(req);
-    // console.log(req.url);
-    // console.log(req.method);
-
-    // res.end('zdravo od serverot'); // isprati odgovor i zatvori go povikot
+    console.log(req.url);
+    console.log(req.method);
+    res.end('здраво од серверот!'); // испрати одговор и затвори го повикот
 });
 
-server.listen(10000);
+server.listen(8080);
 
 /*
 192.168.1.20 - IP Address (Internet Protocol Address)

@@ -1,0 +1,13 @@
+{
+  "name": "hw5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "HW5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node HW5.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -18,10 +18,13 @@ const Studenti = mongoose.model(
         ime: String,
         prezime: String,
         prosek: Number,
-        lokacija: Object,
+        lokacija: {
+            grad: String,
+            drzhava: String
+        }
     },
     'studenti' 
-    );
+);
     
 connect(connectionString)
     .then(() => {
@@ -33,7 +36,7 @@ connect(connectionString)
     })
     .then(res => {
         console.log('Топ 5 студенти според просек: ', res);
-        return Studenti.find({'grad': 'Skopje'}, {_id: 0}).sort({prosek: 1}).limit(3);
+        return Studenti.find({'lokacija.grad': 'Skopje'}, {_id: 0}).sort({prosek: 1}).limit(3);
     })
     .then(res => {
         console.log('Најлоши 3 студенти од Скопје: ', res);

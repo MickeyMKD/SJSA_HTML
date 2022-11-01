@@ -3,8 +3,11 @@ const { expressjwt: jwt } = require('express-jwt');
 const users = require('./handlers/users');
 const recipes = require('./handlers/recipes');
 const config = require('./pkg/config');
+const db = require('./pkg/db');
 
 const app = express();
+
+db.init();
 
 app.use(express.json());
 app.use(jwt({

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const init = () => {
-    const dsn = 'mongodb+srv://mickeymkd:MikiMiki321@cluster0.zryf5.mongodb.net/baza1?retryWrites=true&w=majority';
+    const dsn = 'mongodb+srv://<user>:<password>@cluster0.zryf5.mongodb.net/baza1?retryWrites=true&w=majority';
     mongoose.connect(
         dsn,
         err => {

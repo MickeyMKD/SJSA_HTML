@@ -22,8 +22,8 @@ const getAll = async () => {
     return Recipe.find({});
 };    
 
-const getByUser = async (user_id) => {
-    return Recipe.findOne({user_id});
+const getByUser = async (id) => {
+    return Recipe.findOne({_id: id});
 };    
 
 const update = async (id, uid, data) => {
@@ -35,9 +35,9 @@ const remove = async (id, uid) => {
 };
 
 module.exports = {
+    create,
     getAll,
     getByUser,
-    create,
     update,
     remove
 };

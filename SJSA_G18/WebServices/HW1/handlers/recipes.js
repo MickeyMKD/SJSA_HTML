@@ -12,7 +12,7 @@ const getAll = async (req, res) => {
 
 const getUserRecipes = async (req, res) => {
     try {
-        let data = await recipes.getByUser(req.auth.uid);
+        let data = await recipes.getByUser(req.params.id);
         res.send(data).status(200);
     } catch (err) {
         res.send('Internal Server Error').status(500);
@@ -24,11 +24,12 @@ const create = async (req, res) => {
         let payload = {
             ...req.body,
             user_id: req.auth.uid,
-            published_on: new Date()
+            posted: new Date()
         };
         let c = await recipes.create(payload);
         return res.status(201).send(c);
     } catch(err) {
+        console.log(err);
         res.send('Internal Server Error').status(500);
     }
 };
@@ -38,10 +39,10 @@ const update = async (req, res) => {
         let payload = {
             ...req.body,
             user_id: req.auth.uid,
-            published_on: new Date()
+            posted: new Date()
         };
         let u = await recipes.update(req.params.id, req.auth.uid, payload);
-        return res.status(204).send('Updated!');
+        return res.status(204).send('Updated!'); // 204 - no content on the request
     } catch(err) {
         res.send('Internal Server Error').status(500);
     }

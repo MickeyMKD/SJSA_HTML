@@ -5,9 +5,9 @@ const recipes = require('./handlers/recipes');
 const config = require('./pkg/config');
 const db = require('./pkg/db');
 
-const app = express();
-
 db.init();
+
+const app = express();
 
 app.use(express.json());
 app.use(jwt({
